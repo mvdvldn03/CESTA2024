@@ -9,7 +9,7 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import MinMaxScaler
 import matplotlib.pyplot as plt
 
-API_KEY = 'pk.eyJ1IjoibXZkdmxkbiIsImEiOiJjbHphNzR0MDEwMXR5MnBweHN3M3IxbnY2In0.QWEatCWyi0fec2lWw5CRMw'
+API_KEY = 'API_KEY'
 
 def get_coordinates(place_name, api_key):
     url = f'https://api.mapbox.com/geocoding/v5/mapbox.places/{place_name},+Lake+District,+England.json'
